@@ -90,8 +90,8 @@ function attachEvents() {
         if (!response.ok) {
             return
         }
-        titleElement.values = '';
-        descriptionElement.values = '';
+        titleElement.value = '';
+        descriptionElement.value = '';
 
         boardLoader()
     })
